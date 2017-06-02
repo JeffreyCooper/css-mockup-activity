@@ -54,6 +54,13 @@ body { width: 100%;}
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
 /* global styles */
+.box {
+	border: 5px solid #000;
+	height: 150px;
+	margin: 15px 20px;
+	padding: 20px;
+	width: 250px;
+}
 body {
 	font-family: sans-serif;
 }
