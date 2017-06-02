@@ -53,94 +53,102 @@ body { width: 100%;}
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
-
-/*.sfooter header {*/
-	/*color: #FFFFFF;*/
-	/*font-family: Arial, Helvetica, sans-serif;*/
-}
-.instructions {
-	box-sizing: content-box;
-}
-
-.instructions {
-	border: 3px solid orange;
-	padding: 10px;
-	margin-top: 50px;
-	margin-left: 12px;
-	margin-right: 12px;
-	margin-bottom: 50px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 75%;
-	color: orange;
-}
-.instructions .pull-left {
-	display: inline-block;
-}
-header {
-	background-color: orange;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #FFFFFF;
-	box-sizing: content-box;
-	padding: 5px;
-}
-header h1 {
-	text-wrap: normal;
-	display: inline-block;
-}
-header em {
-	font-size: 65%;
-}
+/* global styles */
 body {
-	box-sizing: content-box;
+	font-family: sans-serif;
 }
-img[src="images/stunning.jpg"] {
-	height: 20%;
-	width: 20%;
-	float: left;
-	margin: 20px;
-}
-img[src="images/captain-janeway.png"] {
-	height: 20%;
-	width: 20%;
-	float: right;
-	padding: 3px;
-	display: inline-block;
-}
-.pull-left {
-	display: inline-block;
-	border-width: thin;
-	border-color: #FFFFFF;
-}
+
 .pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+section {
+	padding: 5rem 0;
+}
+
+h2 {
+	font-size: 2rem;
+	margin-top: 0;
+}
+
+/* header styles */
+header {
+	background-color: darkorange;
+	color: #ffffff;
+	padding: 2rem 0;
+}
+
+header h1 {
 	display: inline-block;
+	font-size: 4.5rem;
+	margin: 0 3rem 0 0;
 }
-.section1 {
-	background-color: lavender;
-	margin: 0px;
-	border: 0px;
-	padding: 50px;
-	font-family: Arial, Helvetica, sans-serif;
+
+/* instructions section */
+.instructions {
+	border: 3px solid darkorange;
+	color: darkorange;
+	font-weight: bold;
+	line-height: 1.5rem;
+	padding: 3rem;
 }
-.section1 h2 {
-	font-size: large;
-	color: dimgrey;
+
+.instructions img {
+	border: 3px solid lightgray;
+	width: 250px;
 }
-.section1 p {
-	font-size: x-small;
-	color: darkgrey;
+
+/* captain picard section */
+section:nth-child(2) {
+	background-color: lightgray;
+	color: #555555;
+	line-height: 1.5rem;
 }
-.section1 p .bold {
+
+img[alt="captain picard"] {
+	width: 300px;
+	border: 3px solid white;
+	margin-right: 3rem;
+}
+
+section:nth-child(2) span {
 	font-style: italic;
 	font-weight: bold;
-	color: #000000
+	color: black;
+	font-family: serif;
 }
-.section2 h2 {
+
+/* profe$$ional Skillz */
+section:last-child h2 {
+	color: darkorange;
 	text-align: right;
 }
-.section2 {
-	color: orange;
+
+table {
+	width: 100%;
+	text-align: left;
 }
-.table2 {
-	color: #FFFFFF;
-	background-color: orange;
+
+th, td {
+	background-color: darkorange;
+	color: white;
+	padding: 1rem;
+}
+
+/* footer */
+footer {
+	background-color: black;
+	color: lightgray;
+	padding: 2rem 0;
+}
+.box {
+	border: 5px solid #000;
+	height: 150px;
+	margin: 15px 20px;
+	padding: 20px;
+	width: 250px;
 }

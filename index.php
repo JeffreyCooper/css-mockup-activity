@@ -20,7 +20,10 @@
 			</header>
 
 			<main>
-
+				<!-- test -->
+				<section>
+					<div class="box">This is some content in a fancy box!</div>
+				</section>
 				<!-- INSTRUCTIONS PANEL -->
 				<section>
 					<div class="container">
@@ -64,9 +67,9 @@
 							<h2>Summary of Profe$$ional Skillz</h2>
 							<table class="table2">
 								<tr>
-									<th>Languages</th>
-									<th>Software</th>
-									<th>Other</th>
+									<th id="tableLeft">Languages</th>
+									<th id="tableCenter">Software</th>
+									<th id="tableRight">Other</th>
 								</tr>
 								<tr>
 									<td>Java</td>
